@@ -1,0 +1,30 @@
+.container{
+	width: 1360px;
+	background-color: seashell;
+}
+.flex{
+	display: flex;
+}
+header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 81px;
+}
+ul{
+	display: flex;
+	justify-content: space-around;
+	font-size:15.74px;
+	text-transform: uppercase;
+}
+li{
+	font-weight: semibold;
+}
+.navi{
+	width: 498px;
+	height: 21px;
+}
+.logo{
+	width: 133px;
+	height: 31px;
+}
