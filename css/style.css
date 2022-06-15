@@ -11,15 +11,31 @@ header{
 	align-items: center;
 	height: 81px;
 }
+.color{
+	color: darkblue;
+}
 ul{
 	display: flex;
 	justify-content: space-around;
-	font-size:15.74px;
 	text-transform: uppercase;
+
 }
 li{
 	font-weight: semibold;
+	color: skyblue;
+	font-size:15.74px;
+	transition-property: all;
+	transition-delay: 0.3s;
+	transition-duration: 0.7s;
+	transition-timing-function: ease;
+	font-family: 'Open Sans', sans-serif;
 }
+li:hover{
+	color: orange;
+	font-size: 15.90px;
+	font-family: 'Open Sans', sans-serif;
+}
+
 .navi{
 	width: 498px;
 	height: 21px;
