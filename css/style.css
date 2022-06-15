@@ -1,6 +1,7 @@
 .container{
 	width: 1360px;
 	background-color: seashell;
+	margin: 0 auto;
 }
 .flex{
 	display: flex;
@@ -43,4 +44,31 @@ li:hover{
 .logo{
 	width: 133px;
 	height: 31px;
+}
+.backg-img{
+	background-image: url(../images/girl.jpg);
+	width: 1360px;
+	height: 650px;
+	background-position: bottom;
+	background-size: cover;
+	opacity:0.6;
+}
+
+h1{
+	text-transform: capitalize;
+	font-size: 78px;
+	color: white;
+}
+/*h2{
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	color: red;
+}*/
+.divi{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	height: 650px;
 }
