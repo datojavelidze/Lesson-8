@@ -44,6 +44,7 @@ li:hover{
 .logo{
 	width: 133px;
 	height: 31px;
+	
 }
 .backg-img{
 	background-image: url(../images/girl.jpg);
@@ -65,10 +66,73 @@ h1{
 	font-family: 'Open Sans', sans-serif;
 	color: red;
 }*/
+
+.section-2{
+	margin-top: 70px;
+	display: flex;
+	flex-wrap: wrap;
+	padding:0 95px;
+	
+}
 .divi{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	/*flex-wrap: wrap;
+*/	height: 650px;
+}
+.discover{
+	width: 241px;
+	height: 242px;
+	margin-right: 41px;
+}
+h3{
+	width: 73px;
+	height: 21px;
+	font-size: 16px;
+	text-transform: uppercase;
+	opacity: 0.5;
+}
+.discover-h4{
+	width: 205px;
+	height: 30px;
+	font-size: 26px;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+}
+.discover-p{
+	opacity: 0.4;
+	margin
+}
+.divof6{
+	display: flex;
+	justify-content: space-between;
 	flex-wrap: wrap;
-	height: 650px;
+}
+.alldiv{
+	width: 270px;
+	height: 327px;
+	background-color: whitesmoke;
+
+
+}
+.photo{
+	width:269px;
+	height: 181px;
+
+}
+.par{
+	width: 267px;
+	height: 94px;
+	font-size: 16px;
+	opacity: 0.4;
+}
+h4{
+	width: 220px;
+	height: 15px;
+	font-size: 17px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-family: 'Open Sans', sans-serif;
 }
